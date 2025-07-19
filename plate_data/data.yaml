@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['clone-license-plate']
+
+roboflow:
+  workspace: object-detection-shc88
+  project: plate-number-recognition-rruui
+  version: 2
+  license: MIT
+  url: https://universe.roboflow.com/object-detection-shc88/plate-number-recognition-rruui/dataset/2
