@@ -3,6 +3,11 @@ import os
 from PIL import Image
 
 
+
+
+st.sidebar.title("Model Summary")
+
+
 st.markdown("""
             #   #Model Summary
 
