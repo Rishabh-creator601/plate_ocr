@@ -35,10 +35,9 @@ if image_bytes is not None:
     
     holder.image(image, caption="Uploaded Image", use_container_width=True)
     
-    if st.button("Detect IMAGE ->"):
+    if st.button("Detect Image =>"):
         image_resized = cv2.resize(image,(640,640))
         
-        holder.image(image_resized, caption="Resized Image", use_container_width=True)
         
         with st.spinner("Detecting..."):
 
