@@ -1,0 +1,5 @@
+
+
+easy ocr threshold :  
+https://github.com/JaidedAI/EasyOCR/blob/master/easyocr/craft_utils.py#L27
+https://stackoverflow.com/questions/72507868/how-to-read-the-text-by-easyocr-correctly
