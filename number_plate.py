@@ -55,5 +55,6 @@ if image_bytes is not None:
                 st.image(img[..., ::-1], caption="License plate ", use_container_width=True)
                 
                 
-            st.markdown(f"**Detected Text:** {text} || **Confidence:** {conf_text*100:.2f}%")
+            st.markdown(f"**Detected Text:** {text} ")
+            st.markdown("**Confidence:** {conf_text*100:.2f}%")
             st.markdown(f"#### **confidence of detection**: {conf*100:.2f}%")
