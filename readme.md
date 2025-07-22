@@ -16,9 +16,6 @@ This project combines **object detection** and **text recognition** to accuratel
 - 👁️‍🗨️ **EasyOCR** for text extraction  
 - 🚀 **Streamlit** for a responsive web UI
 
-<p align="center">
-  <img src="./media/demo_image.png" width="80%" alt="App Screenshot" />
-</p>
 
 ---
 
