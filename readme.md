@@ -8,25 +8,29 @@ A **Streamlit-powered web app** that performs **automatic number plate detection
 
 ## 🔍 Overview
 
-This project combines **object detection** and **text recognition** to accurately identify vehicle number plates and extract alphanumeric text from them.
+This project combines **object detection** and **text recognition** to accurately detect vehicle number plates and extract alphanumeric text.
 
-Built using:
+**Tech Stack:**
 
-- 🧠 YOLOv11 (Ultralytics) for number plate detection  
-- 👁️‍🗨️ EasyOCR for recognizing characters  
-- 🚀 Streamlit for UI  
+- 🧠 **YOLOv8 (Ultralytics)** for number plate detection  
+- 👁️‍🗨️ **EasyOCR** for text extraction  
+- 🚀 **Streamlit** for a responsive web UI
+
+<p align="center">
+  <img src="./media/demo_image.png" width="80%" alt="App Screenshot" />
+</p>
 
 ---
 
 ## 🧠 Project Pipeline
 
 ```plaintext
-Input Image 
+Step 1: Input Image
     ↓
-YOLOv8 Detection 
+Step 2: YOLOv8 detects Number Plate
     ↓
-Crop Region of Interest (ROI) 
+Step 3: Crop Region of Interest (ROI)
     ↓
-EasyOCR Recognition 
+Step 4: EasyOCR extracts Text
     ↓
-Output: Text + Confidence Score
+Step 5: Output — Plate Text + Confidence Score
